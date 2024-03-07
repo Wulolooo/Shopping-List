@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-![](assets/Snipaste_2024-03-07_20-07-32.png)
+<img src="assets/Snipaste_2024-03-07_20-07-32.png" style="zoom:55%;" />
 
 ### How to use
 
