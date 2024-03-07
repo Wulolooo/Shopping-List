@@ -1,0 +1,103 @@
+/*
+deep-green:  #4BB199
+light-green: #84CAB6
+deep-pink:   #D9617C
+light-pink:  #F29E9A
+
+light-green:    #84CAB6
+deep-green:     #469E3C
+moderate-pink:  #F29E9A
+dark-yellow:    #D9B009
+yellow-white:   #FEF8EE
+dark:           #221F1C
+ */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #f4e2de;
+    color: #221F1C;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #432000;
+    background-color: #edf2d9;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+input:focus {
+    color: #7a7a7a;
+    outline-color: #b4dbdb;
+    /* outline-width:thick; */
+    /* border-color: #a7c5c5; */
+    background-color: #ecece4;
+}
+
+input:focus::placeholder {
+    color: #d3d4d7;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #84CAB6;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: #5c4b51;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul li {
+    background-color: #f2ebbf;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex-grow: 1;
+    padding: 10px 15px;
+}
+
+ul li:hover {
+    /* transition: all 0.1s linear 0s; */
+    /* text-indent: -10px; */
+    font-weight: bold;
+    background-color: #f3b562;
+}
+
+ul li:active {
+    color: #EEF0F4;
+    background-color: #27816c;
+}
